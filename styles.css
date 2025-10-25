@@ -24,11 +24,16 @@
 
 
 body, html {
+    height: 100%;
+    display: flex;
     margin: 0;
-    padding: 10px;
+    padding: 0;
+    justify-content: flex-start;
+    align-items: center;
     background: var(--background);
     color: var(--text);
     font-family: var(--font);
+    flex-direction: column;
 }
 
 img {
@@ -74,4 +79,8 @@ button {
     cursor: pointer;
     font-family: var(--font);
     width: 160px;
+}
+
+.container{
+    text-align: left;
 }
